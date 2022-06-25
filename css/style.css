@@ -1,0 +1,33 @@
+h1,
+h4 {
+    color: rgb(63 158 217);
+    padding: 8px 0px 0px 150px;
+    text-align: right;
+    text-align: center;
+}
+
+body {
+    background-image: url("/img/hatter.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+.container {
+    color: rgb(63 158 217);
+    padding: 45px;
+}
+
+.masodik {
+    padding: 20px;
+}
+
+.idezet {
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nevjegy {
+    width: 40%;
+    display: inline;
+}
