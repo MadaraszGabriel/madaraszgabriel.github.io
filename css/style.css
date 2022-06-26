@@ -1,7 +1,7 @@
 h1,
 h4 {
     color: rgb(63 158 217);
-    padding: 8px 0px 0px 150px;
+    padding: 10px 0px 0px 100px;
     text-align: right;
     text-align: center;
 }
@@ -17,18 +17,19 @@ body {
 .container {
     text-align: justify;
     color: rgb(63 158 217);
-    padding: 45px;
+    padding: 10px 45px 10px 45px;
+    margin: 20px 150px;
 }
 
-.masodik {
-    padding: 20px;
+.elso {
+    padding: 0px 50px;
 }
 
-.idezet {
+q.idezet {
     text-align: right;
-    margin: 0px;
-    padding: 0px;
+    padding-right: 50px;
 }
-.nevjegy{
-    padding: 70px 10px 20px 10px;
+
+.nevjegy {
+    padding: 40px 40px;
 }
