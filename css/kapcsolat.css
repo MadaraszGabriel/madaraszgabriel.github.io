@@ -1,0 +1,35 @@
+@font-face {
+    font-family: roboto;
+    src: url(/font/Roboto-Medium.ttf);
+}
+
+body {
+    background-image: url("/img/hatter.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    /* margin: 10%; */
+    border: 2px solid red;
+    font-family: roboto;
+    text-align: center;
+    color: rgb(63 158 217);
+
+}
+
+.center {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container ul {
+    display:inline-block;
+    text-align: left;
+}

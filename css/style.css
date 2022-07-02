@@ -1,12 +1,13 @@
 h1,
 h4 {
+    text-indent: 350px;
     color: rgb(63 158 217);
     padding: 10px 0px 0px 100px;
 }
 
 @font-face {
-    font-family: sajat;
-    src: url("/font/Roboto-Black.ttf");
+    font-family: roboto;
+    src: url(/font/Roboto-Medium.ttf);
 }
 
 body {
@@ -15,10 +16,10 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    font-family: sajat;
 }
 
 .container {
+    font-family: roboto;
     text-align: justify;
     color: rgb(63 158 217);
     padding: 10px 45px 10px 45px;
@@ -35,13 +36,20 @@ q.idezet {
 }
 
 .nevjegy {
+    margin: auto auto;
+    border: 1px solid red;
     padding: 40px 40px;
 }
 
 img {
-
+    border: 1px solid red;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto;
     width: 50%;
+}
+
+.center {
+    width: 320px;
+    border: 1px solid red;
+    margin: auto auto;
 }
