@@ -19,7 +19,6 @@ body {
 }
 
 .container {
-    border: 1px solid red;
     margin: 0px;
     position: absolute;
     left: 50%;
@@ -30,13 +29,11 @@ body {
 }
 
 .kep {
-    border: 1px solid blue;
     text-align: center;
 
 }
 
 .idezet {
-    border: 1px solid green;
     text-align: right;
     padding-right: 50px;
 }
