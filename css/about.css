@@ -1,3 +1,10 @@
+h1,
+h4 {
+    text-align: end;
+    color: rgb(63 158 217);
+    padding: 2% 20% 0% 0%;
+}
+
 @font-face {
     font-family: roboto;
     src: url(/font/Roboto-Medium.ttf);
@@ -12,22 +19,15 @@ body {
 }
 
 .container {
-    font-family: roboto;
-    text-align: center;
-    color: rgb(63 158 217);
-
-}
-
-.center {
     margin: 0px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    transform: translate(-50%);
+    font-family: roboto;
+    text-align: left;
+    color: rgb(63 158 217);
 }
 
-.container ul {
-    display: inline-block;
-    text-align: left;
+.kep {
+    text-align: center;
 }
